@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Rohan Khanal",
@@ -38,12 +38,6 @@ export const DATA = {
         icon: Icons.x,
 
         navbar: true,
-      },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons,
-        navbar: false,
       },
       email: {
         name: "Send Email",
