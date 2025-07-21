@@ -12,7 +12,7 @@ export const DATA = {
   summary:
     "As a software developer, I’ve built dynamic web applications with the MERN stack and Next.js. Now, I’m diving into DevOps, exploring tools like Docker, Kubernetes, and CI/CD pipelines. Along the way, I’ve organized workshops and competed in hackathons, focusing on real-world impact. My goal is to bridge development and operations, creating scalable systems while growing as a developer and DevOps engineer.",
   avatarUrl: "/me.webp",
-  skills: ["React", "Next.js", "Typescript", "Node.js", "Python", "Docker"],
+  skills: ["React", "Next.js", "Typescript", "Node.js", "Python", "TailwindCSS", "Shadcn UI", "Firebase", "MongoDB", "Express.js", "Git", "Jenkins", "AWS", "Linux","Docker","Kubernetes", "CI/CD", "Grafana", "Prometheus"],
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "rohankhanal14r@gmail.com",
@@ -49,80 +49,44 @@ export const DATA = {
     },
   },
 
-  // work: [
-  //   {
-  //     company: "Atomic Finance",
-  //     href: "https://atomic.finance",
-  //     badges: [],
-  //     location: "Remote",
-  //     title: "Bitcoin Protocol Engineer",
-  //     logoUrl: "/atomic.png",
-  //     start: "May 2021",
-  //     end: "Oct 2022",
-  //     description:
-  //       "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
-  //   },
-  //   {
-  //     company: "Shopify",
-  //     badges: [],
-  //     href: "https://shopify.com",
-  //     location: "Remote",
-  //     title: "Software Engineer",
-  //     logoUrl: "/shopify.svg",
-  //     start: "January 2021",
-  //     end: "April 2021",
-  //     description:
-  //       "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-  //   },
-  //   {
-  //     company: "Nvidia",
-  //     href: "https://nvidia.com/",
-  //     badges: [],
-  //     location: "Santa Clara, CA",
-  //     title: "Software Engineer",
-  //     logoUrl: "/nvidia.png",
-  //     start: "January 2020",
-  //     end: "April 2020",
-  //     description:
-  //       "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
-  //   },
-  //   {
-  //     company: "Splunk",
-  //     href: "https://splunk.com",
-  //     badges: [],
-  //     location: "San Jose, CA",
-  //     title: "Software Engineer",
-  //     logoUrl: "/splunk.svg",
-  //     start: "January 2019",
-  //     end: "April 2019",
-  //     description:
-  //       "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
-  //   },
-  //   {
-  //     company: "Lime",
-  //     href: "https://li.me/",
-  //     badges: [],
-  //     location: "San Francisco, CA",
-  //     title: "Software Engineer",
-  //     logoUrl: "/lime.svg",
-  //     start: "January 2018",
-  //     end: "April 2018",
-  //     description:
-  //       "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
-  //   },
-  //   {
-  //     company: "Mitre Media",
-  //     href: "https://mitremedia.com/",
-  //     badges: [],
-  //     location: "Toronto, ON",
-  //     title: "Software Engineer",
-  //     logoUrl: "/mitremedia.png",
-  //     start: "May 2017",
-  //     end: "August 2017",
-  //     description:
-  //       "Designed and implemented a robust password encryption and browser cookie storage system in Ruby on Rails. Leveraged the Yahoo finance API to develop the dividend.com equity screener",
-  //   },
-  // ],
+  work: [
+    {
+      company: "Gloosy",
+      href: "https://gloosy.com/",
+      badges: [],
+      location: "Freelance",
+      title: "Full Stack Developer",
+      logoUrl: "/gloosy.webp",
+      start: "July 2025",
+      end: "August 2025",
+      description:
+        "Worked on various projects as a Full Stack Developer, utilizing technologies like Next.js, Firebase, Node.js, and Docker to deliver high-quality web applications.",
+    },
+    {
+      company: "Jessy Clio",
+      href: "https://jessyclio.com/",
+      badges: [],
+      location: "Freelance",
+      title: "Full Stack Developer",
+      logoUrl: "/jessyclio.webp",
+      start: "January 2025",
+      end: "February 2025",
+      description:
+        "Developed a full-stack application using Next.js and Node.js, including a custom-built admin portal, and successfully deployed the solution on an AWS EC2 instance.",
+    },
+    {
+      company: "CODEIT",
+      href: "https://codeit.com.np",
+      badges: [],
+      location: "Remote",
+      title: "DevOps Instructor",
+      logoUrl: "/codeit.png",
+      start: "July 2025",
+      end: "August 2025",
+      description:
+        "Conducted a comprehensive DevOps course at CODEIT, covering Docker, Kubernetes, CI/CD, and Terraform. Guided students through hands-on projects, enhancing their skills in modern software development practices.",
+    },
+  ],
 
   education: [
     {
@@ -154,7 +118,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://ucs-xi.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -193,6 +157,39 @@ export const DATA = {
         },
       ],
       image: "/project2.png",
+      video: "",
+    },
+    {
+      title: "Brain Tumor Classification",
+      href: "https://brain-tumor-classification-deeplear-black.vercel.app/",
+      dates: "May 2025",
+      active: true,
+      description:
+        "Developed a deep learning model for brain tumor classification using MRI images. The project involved data preprocessing, model training, and evaluation to achieve high accuracy in tumor detection.",
+
+      technologies: [
+        "MongoDB",
+        "Express.js",
+        "React.js",
+        "Node.js",
+        "TailwindCSS",
+        "Python",
+        "TensorFlow",
+        "Keras",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://ucs-xi.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/RohanKhanal14/Brain-tumor-classification-deeplearning.git",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/project3.png",
       video: "",
     },
   ],
